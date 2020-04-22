@@ -2,6 +2,23 @@
 *** GENERAL
 **********************************************/
 
+.final_score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+
+}
+
+.final_score:focus { outline: none; }
+
 * {
     margin: 0;
     padding: 0;
@@ -150,5 +167,36 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
+.winScoreLabel {
+    position: absolute;
+    left: 37%;
+    top: 200px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 250;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:black;
+}
+.winScore {
+    position: absolute;
+    left: 50%;
+    top: 260px;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 150px;
+    border-color:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: gray;
+    text-align: center;
+}
+.winScore_btn {
+    position: absolute;
+    left: 50%;
+    top: 295px;
+}
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
